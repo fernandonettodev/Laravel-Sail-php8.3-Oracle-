@@ -133,7 +133,7 @@ volumes:
 
 Sinta-se à vontade para adicionar outros serviços que você precise, como Memcached, Selenium, etc.
 
-### 5. Configurar o Acesso ao Banco Oracle local e Sandbox
+### 5. Configurar o Acesso ao Banco Oracle local e ou Sandbox
 No local apenas use as credenciais no .env:
 
 ```yaml
@@ -182,11 +182,11 @@ Espere o processo de criação ser concluído.
 
 ### 7. Instale os pacotes do Yajra pra identificar o banco e as requisições entre laravel e oracle:
 ```bash
-composer require yajra/laravel-datatables-oracle:"^11"
+composer require yajra/laravel-datatables-oracle:"*"
 ```
 e
 ```bash
-composer require yajra/laravel-oci8": "^10.0
+composer require yajra/laravel-oci8": "*"
 ```
 
 após isso adicione no config/app.php:
