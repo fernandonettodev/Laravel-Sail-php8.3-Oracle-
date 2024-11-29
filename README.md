@@ -1,4 +1,4 @@
-# Configuração do Projeto Laravel com Sail, DB Oracle, Redis e PostgreSQL
+# Configuração do Projeto Laravel PHP 8.3 com Sail, DB Oracle, Redis e PostgreSQL
 
 Este guia irá ajudá-lo a configurar seu projeto Laravel para usar o banco de dados Oracle com PHP 8.3, Sail, Redis e PostgreSQL.
 
