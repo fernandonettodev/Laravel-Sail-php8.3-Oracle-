@@ -167,15 +167,20 @@ e cadastre os dados no seu .env:
 
 ### 6. Subir os Containers
 
-Na raiz do projeto, execute o comando:
+6.1. Na raiz do projeto, execute o comando para buildar os containers e verificar se não ocorreu erro:
 
+```bash
+./vendor/bin/sail build --no-cache
+```
+
+6.2. Se o build ocorreu sem problemas, agora é hora de subir os containers (-d pra manter as requisições do sail em segundo plano):
 ```bash
 ./vendor/bin/sail up -d
 ```
 
-Espere o processo de build ser concluído.
+Espere o processo de criação ser concluído.
 
-### 7. Instale os pacotes do Yajra pra identificar o banco oracle:
+### 7. Instale os pacotes do Yajra pra identificar o banco e as requisições entre laravel e oracle:
 ```bash
 composer require yajra/laravel-datatables-oracle:"^11"
 ```
